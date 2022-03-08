@@ -20,5 +20,24 @@
     echo "What is the answer of six times seven\n";
     $answer = 6 * 7 ;
     echo "If the answer is:  $answer, what was the question?\n";
-?></p>
+?>
+</p> 
+<p>
+        <?php
+            echo 
+            "Hello to you!\n";
+        ?> 
+        </p>
+    
+        <p>
+        <?php
+            $data = array("a", "b", "c");
+            echo 
+            $data[1];
+            echo 
+            "Thank you TWD";
+        ?>
+        </p>
+
+
 
