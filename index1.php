@@ -1,22 +1,22 @@
-<!-- First attempt at using php -->
+
 
 <!DOCTYPE html> 
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.CSS">
-    <title>bobsWebDemos including PHP</title>
+    <title>try with index1 and php</title>
 </head>
 
 <body>
 
-<h1>First attempt with PHP</h1>
+<h1>Another attempt with PHP</h1>
 <p>
 <?php
     echo "Hello to you!\n";
 ?> 
 </p>
-
+<?php?>
 <p><?php
     $data = array("TWD ", "provides technical tutorials", " and they are good!");
     echo $data[0];
@@ -53,8 +53,7 @@
         <h1>PHP Syntax Example</h1>
 
 <h4><?php
-echo 'PHP Powers almost 80% of <br> the Modern Web.';
-echo "<br>PHP Powers almost 80% of <br> the Modern Web.";
+echo "PHP Powers almost 80% of the Modern Web.";
 ?></h4>
 
 <script src=script src="jscript.js"></script>

@@ -6,3 +6,4 @@ Bob's demos of html, css and jscript
 "Syntax starts 3:00:00 Create file in bobs for demos"
 "Add emme file to record ongoing Emmet shortcuts"
 "Syntax started 3:00:00 Create file in bobs for demos Understand different paths of html and php OK!"
+"Reached 3:15:40 see express file Must remember to save"
