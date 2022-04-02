@@ -81,7 +81,7 @@
     $g = "sam" . 25;
     echo "<br>G: $g";
     echo "<br>Python needs specific casting for the code above to prevent trace backs";
-    echo "<br>But this code using FALSE and TRUE is in another world!";
+    echo "<br><br>But this code using FALSE and TRUE is in another world!";
     echo "<br> A" . FALSE . "B";
     echo "<br> X" . TRUE . "Y";
     ?>
@@ -97,16 +97,37 @@
  ?>
 
 <?php
-    echo "<br>More on PHP variables and expressions from 3:25:16";
+    echo "<br><br>More on PHP variables and expressions from 3:25:16";
+ ?>
+
+<?php
+    echo "<br>";
+    echo "Triple equals examples both work / not work";
+    $vv = "Hello World!";
+    echo "<br>" . "First;" . strpos($vv, "Wo") ;
+    echo "<br>" . "Second;" . strpos($vv, "He") ;
+    echo "<br>" . "Third;" . strpos($vv, "ZZ") ;
+    if (strpos($vv, "He") == FALSE) echo "<br>" . "Wrong A" ;
+    if (strpos($vv, "ZZ") == FALSE) echo "<br>" . "Right B" ;
+    if (strpos($vv, "He") !== FALSE) echo "<br>" . "Right C" ;
+    if (strpos($vv, "ZZ") !== FALSE) echo "<br>" . "Wrong C1" ;
+    if (strpos($vv, "He") === FALSE) echo "<br>" . "Wrong D" ;
+    if (strpos($vv, "ZZ") === FALSE) echo "<br>" . "Right D1" ;
+    print_r(FALSE); print(FALSE);
+    echo "<br>". "Where were they?";
+    echo "<br><br>" . "Reached 3:27:31";
+    
+
  ?>
 
 <?php
     echo "<br>";
  ?>
 
-<?php
-    echo "<br>";
- ?>
+
+
+
+
         <script src="" async defer></script>
     </body>
 </html>
