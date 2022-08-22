@@ -11,7 +11,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.CSS">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -124,7 +124,17 @@
     echo "<br>";
  ?>
 
+<?php
+    echo "<br>". "Simple for loop 3:37:05";
+        // before loop starts
+                    // loop runs while true (top test)
+                                // run after each iteration
+    for ($count=1; $count<= 6; $count++) {
+        echo "$count times 6 is " . $count * 6;
+        echo "<br>";
+    }
 
+?>
 
 
 

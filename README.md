@@ -10,3 +10,7 @@ Bob's demos of html, css and jscript
 "More on PHP variables and expressions from 3:25:16"
 "Continue from 3:27:31 in express file"
 "3:27:40 Control Structures Then Restart at 3:31:54"
+"See control structure notes - (simple example of for loop works!) - 
+Now for Arrays starting 3:34:11"
+
+"NB have transferred this text from 3:00:00 onwards to chucksWD, NB all php code attempts are in express file"
