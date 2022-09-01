@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Dr Chuck PHP</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.CSS">
@@ -17,7 +17,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <?php
+<?php
     echo'First expression example.' ;
     echo("<br>");
     $x = "15" + 27 ;    
@@ -57,8 +57,7 @@
     $count = 0 ;
     $count += 1 ;
     echo "<br>" ;
-    echo "Count is: $count" ;
-    
+    echo "Count is: $count" ;    
  ?>
 
  <?php
@@ -76,10 +75,11 @@
     $e =  (int) 9.9 - 1 ;
     echo "<br>";
     echo "E: $e";
-    $f = "sam" + 25;
-    echo "<br>F: $e ";
-    $g = "sam" . 25;
-    echo "<br>G: $g";
+    // $f = "sam" + 25;
+    //echo "<br>";
+    //echo "F: $f ";
+    //$g = "sam" . 25;
+    //echo "<br>G: $g";
     echo "<br>Python needs specific casting for the code above to prevent trace backs";
     echo "<br><br>But this code using FALSE and TRUE is in another world!";
     echo "<br> A" . FALSE . "B";
@@ -116,14 +116,10 @@
     print_r(FALSE); print(FALSE);
     echo "<br>". "Where were they?";
     echo "<br><br>" . "Reached 3:27:31";
-    
-
  ?>
-
 <?php
     echo "<br>";
  ?>
-
 <?php
     echo "<br>". "Simple for loop 3:37:05";
         // before loop starts
@@ -133,10 +129,21 @@
         echo "$count times 6 is " . $count * 6;
         echo "<br>";
     }
-
-?>
-
-
+?> 
+<?php
+    echo "<br>";
+ ?>
+ <?php
+    echo "<br>". "ARRAYS, starting 3:42:00" ;
+    echo "<br>";
+    echo  "<br>". "Integer indices". "<br>";
+    $stuff = array("Hi", "there");
+    echo "Array 'stuff' integer 1 is: ", $stuff[1], "<br>"; 
+    echo  "<br>". "Key  / value". "<br>";
+    $moreStuff = array("name" => "Bob",
+                        "course" => "WA4E");
+    echo "Array key is: course. Value is: ", $moreStuff["course"], "<br>";
+    ?>
 
         <script src="" async defer></script>
     </body>

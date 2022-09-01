@@ -14,3 +14,5 @@ Bob's demos of html, css and jscript
 Now for Arrays starting 3:34:11"
 
 "NB have transferred this text from 3:00:00 onwards to chucksWD, NB all php code attempts are in express file"
+
+"Arrays to 3:43:34 indices, key/ value, dumping See examples in express"
