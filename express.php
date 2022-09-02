@@ -139,10 +139,28 @@
     echo  "<br>". "Integer indices". "<br>";
     $stuff = array("Hi", "there");
     echo "Array 'stuff' integer 1 is: ", $stuff[1], "<br>"; 
-    echo  "<br>". "Key  / value". "<br>";
+    echo  "Key  / value". "<br>";
     $moreStuff = array("name" => "Bob",
                         "course" => "WA4E");
     echo "Array key is: course. Value is: ", $moreStuff["course"], "<br>";
+    echo ("<pre><br>");
+    ?>
+    <?php
+    $moreStuff = array("name" => "Bob",
+    "course" => "WA4E");
+    //echo ("<pre><br>");
+    //print_r("Array key is: name. Value is: ", $moreStuff["name"]);
+    echo "Array key is: name. Value is: ", $moreStuff["name"];
+    //echo ("<br><pre><br>");
+    ?>
+
+    <?php
+    $AmoreStuff = array("name" => "June",
+    "course" => "Deutsch");
+    //echo("<pre>/n" );
+    //print_r("Array key is: name. Value is: ", $AmoreStuff["name"]);
+    echo "Array key is: name. Value is: ", $AmoreStuff["name"];
+    //echo("/n<pre>/n" );
     ?>
 
         <script src="" async defer></script>
