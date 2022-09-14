@@ -152,15 +152,48 @@
     //print_r("Array key is: name. Value is: ", $moreStuff["name"]);
     echo "Array key is: name. Value is: ", $moreStuff["name"];
     //echo ("<br><pre><br>");
+    echo "<br>";
     ?>
 
     <?php
-    $AmoreStuff = array("name" => "June",
-    "course" => "Deutsch");
+    //Playing with presentation for debug
+    echo"Array = ('name' => 'June', 'course' => 'Deutsch');";
+    echo"<br>";
+    $AmoreStuff = array("name" => "June", "course" => "Deutsch");
     //echo("<pre>/n" );
     //print_r("Array key is: name. Value is: ", $AmoreStuff["name"]);
-    echo "Array key is: name. Value is: ", $AmoreStuff["name"];
+    echo"<br>";
+    echo"Array key is: name. Value is: ", $AmoreStuff["name"];
     //echo("/n<pre>/n" );
+    ?>
+
+    <?php 
+    // echo"<br>";
+    // echo"Building up an array";
+    // echo"<br>";
+    // echo"array va() is:";
+    // echo"<br>";
+    // $va = array();
+    // $va[] = "One Two";
+    // $va[] = "Three Four";
+    // print_r ($va);
+    $va = array("One Two", "Three Four");
+    //echo"array va is also: ", $va;
+    print_r ($va);
+    ?>
+    <?php
+    echo"<br>";
+    echo "Looping through an array with 'foreach'", "<br>";
+    $stuff =  array("name" => "June",
+                     "activity" => "Choir",
+                    "name" => "Bob",
+                    "activity" => "Coding",
+                    "name" => "Finn",
+                    "activity" => "Jiu-Jitsu");
+    foreach($stuff as $k => $v) {
+        echo "Key = ", $k, ".  Value = ", $v, ". <br>";
+    } 
+             
     ?>
 
         <script src="" async defer></script>
