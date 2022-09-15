@@ -192,10 +192,54 @@
                     "activity" => "Jiu-Jitsu");
     foreach($stuff as $k => $v) {
         echo "Key = ", $k, ".  Value = ", $v, ". <br>";
-    } 
-             
+    }              
+    ?>
+    <?php
+    echo "Looping through an array with 'count'", "<br>";
+    $ay = array("Kelly", "Shona", "Lyndsay", "Mike");
+    for ($i = 0; $i < count($ay); $i++) {
+        echo "I = ", $i, " Val = ", $ay[$i], "<br>";
+    }
+    ?>
+    <?php
+    echo "An array of arrays", "<br>";
+    $race = array(
+        'entrants' => array(
+            'team1' => "black",
+            'team2' => "red",
+            'team3' => "green",
+            'team4' => "blue"
+        ),
+        'officials' => array(
+            'starter' => "tom",
+            'time' => "dick",
+            'marshal1' => "harry",
+            'marshal2' => "harriet"
+        ),
+        'support' => array(
+            'mechanic' => "finn",
+            'food' => "freya",
+            'drink' => "shona",
+            'towels' => "me"
+        )
+        );
+        echo$race["entrants"] ["team3"];
+        echo"<br>";
+        echo$race["officials"] ["marshal2"];
+        echo"<br>";
+        echo$race["support"] ["towels"];
+        echo"<br>";
     ?>
 
+
+
+
+
+
+
+    <?php
+    ?>
+    echo"<br>";
         <script src="" async defer></script>
     </body>
 </html>
