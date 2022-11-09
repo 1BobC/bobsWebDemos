@@ -250,28 +250,30 @@
         echo"<br>";
     ?>  
       <!--Write your own functions  -->
-      <h3>Built-in functions:</h3>
+      <h3>Write your own functions:</h3>
       <?php
-      function meet() {
-        print "Hallo.";
+      function _meet() {
+        print "<p>Hallo.</p>";
       }
-      function greet() {
-        print "Es freut mich zu kennen lernen.";
+      function _greet() {
+        print "<p>Es freut mich zu kennen lernen.</p>";
       }
       echo"<br>";
-      echo"____";meet() ; 
-      echo"<br>"; 
-      echo"____";greet();
+      echo _meet() ; 
+      echo _greet();
       echo"<br>";
     ?>  
-
+    <!-- echo"<p>The answer to the Universe, Life and Everything is: $x</p>" ; 
+    OK for styling variables but for functions?
+    Include style ref in the function-->
 
 
 
 
     <?php
+    echo"<p>Page End</p>";
     ?>
-    <!-- echo"<br>"; -->
+    
         <script src="" async defer></script>
     </body>
 </html>
