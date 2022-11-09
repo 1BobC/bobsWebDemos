@@ -17,20 +17,21 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <h3>First expression example:</h3>
 <?php
     echo'First expression example.' ;
     echo("<br>");
     $x = "15" + 27 ;    
-    echo($x) ;
-    echo("<br>"); 
+    echo"<p>The answer to the Universe, Life and Everything is: $x</p>" ;
+    //echo("<br>"); 
     $y = "27" * 150 ;   
-    echo($y) ;
+    echo"<p>The answer is: ($y)</p>";
 ?> 
 <?php
-    $x = "<br>" . 'Hi there, ' . ' everybody' . "<br>" ;
-    echo($x);
+    $x ='Hi there, ' . ' everybody' ;
+    echo"<p>The answer is:($x)</p>";
 ?>
-
+    <h3>Ternery Operator:</h3>
 <?php
     echo "<br>" ;
     echo "Ternery Operator " ;
@@ -45,7 +46,7 @@
     echo "<br>" ;
     echo "Third: $msg <br>" ;
 ?>
- 
+    <h3>Concatination or += etc:</h3>
  <?php
     echo "<br>" ;
     echo "Side effect assignment with contractions (eg concatination or += etc) 3:17:16" ;
@@ -59,7 +60,7 @@
     echo "<br>" ;
     echo "Count is: $count" ;    
  ?>
-
+    <h3>Conversion Casting:</h3>
  <?php
     echo "<br>";
     echo "Conversion (php aggressive implicit), Casting (explicic specific individual) 3:19:00";
@@ -85,7 +86,7 @@
     echo "<br> A" . FALSE . "B";
     echo "<br> X" . TRUE . "Y";
     ?>
-
+    <h3>Equality V Identity:</h3>
 <?php
     echo "<br>Equality V Identity (== is aggressive!) - Ready?";
     if (123 == "123") print ("<br>Equality 1" );
@@ -120,6 +121,7 @@
 <?php
     echo "<br>";
  ?>
+    <h3>Simple for loop:</h3>
 <?php
     echo "<br>". "Simple for loop 3:37:05";
         // before loop starts
@@ -133,6 +135,7 @@
 <?php
     echo "<br>";
  ?>
+    <h3>ARRAYS:</h3>
  <?php
     echo "<br>". "ARRAYS, starting 3:42:00" ;
     echo "<br>";
@@ -178,7 +181,7 @@
     // $va[] = "Three Four";
     // print_r ($va);
     $va = array("One Two", "Three Four");
-    //echo"array va is also: ", $va;
+    //echo"array va is also: ", $va;<h4>Write your own functions.</h4>
     print_r ($va);
     ?>
     <?php
@@ -198,10 +201,12 @@
     echo "Looping through an array with 'count'", "<br>";
     $ay = array("Kelly", "Shona", "Lyndsay", "Mike");
     for ($i = 0; $i < count($ay); $i++) {
-        echo "I = ", $i, " Val = ", $ay[$i], "<br>";
+        echo"I = ", $i, " Val = ", $ay[$i];
     }
+    echo"<br>";
     ?>
     <?php
+    echo"<br>";
     echo "An array of arrays", "<br>";
     $race = array(
         'entrants' => array(
@@ -231,7 +236,8 @@
         echo"<br>";
     ?>
     <!-- From 4:02:21 Built-in functions 
-        examples and NB can be similar to C string functions-->    
+        examples and NB can be similar to C string functions-->   
+        <h3>Built-in functions:</h3> 
         <?php
         echo"<br>";
         echo strrev(" .dlroW olleH");
@@ -244,12 +250,19 @@
         echo"<br>";
     ?>  
       <!--Write your own functions  -->
+      <h3>Built-in functions:</h3>
       <?php
       function meet() {
-        print "Hello";
+        print "Hallo.";
       }
-      meet();  
-      meet();
+      function greet() {
+        print "Es freut mich zu kennen lernen.";
+      }
+      echo"<br>";
+      echo"____";meet() ; 
+      echo"<br>"; 
+      echo"____";greet();
+      echo"<br>";
     ?>  
 
 

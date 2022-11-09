@@ -8,8 +8,13 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     color: chocolate;
 }
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
 p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: goldenrod;
+    color: darkgrey;
 }
