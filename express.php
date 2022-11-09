@@ -224,14 +224,33 @@
         )
         );
         echo$race["entrants"] ["team3"];
-        echo"<br>";
+        
         echo$race["officials"] ["marshal2"];
         echo"<br>";
         echo$race["support"] ["towels"];
         echo"<br>";
     ?>
-
-
+    <!-- From 4:02:21 Built-in functions 
+        examples and NB can be similar to C string functions-->    
+        <?php
+        echo"<br>";
+        echo strrev(" .dlroW olleH");
+        echo"<br>";
+        echo str_repeat("Hi di hi. ", 2);
+        echo"<br>";
+        echo strtolower("HERE WE, HERE WE, HERE WE... ARE!");
+        echo"<br>";
+        echo strlen("The quick brown fox... etc.");
+        echo"<br>";
+    ?>  
+      <!--Write your own functions  -->
+      <?php
+      function meet() {
+        print "Hello";
+      }
+      meet();  
+      meet();
+    ?>  
 
 
 
@@ -239,7 +258,7 @@
 
     <?php
     ?>
-    echo"<br>";
+    <!-- echo"<br>"; -->
         <script src="" async defer></script>
     </body>
 </html>
