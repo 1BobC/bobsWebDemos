@@ -21,7 +21,11 @@
 <?php
     echo'First expression example.' ;
     echo("<br>");
-    $x = "15" + 27 ;    
+    
+    //$x = "15" + 27 ;  
+    $t = 15;
+    $u = 27;  
+    $x = $t + $u;
     echo"<p>The answer to the Universe, Life and Everything is: $x</p>" ;
     //echo("<br>"); 
     $y = "27" * 150 ;   
@@ -251,12 +255,12 @@
     ?>  
       <!--Write your own functions  -->
       <h3>Write your own functions:</h3>
-      <?php
+    <?php
       function _meet() {
         print "<p>Hallo.</p>";
       }
       function _greet() {
-        print "<p>Es freut mich zu kennen lernen.</p>";
+        print "<p>Es freut mich zu kennen lernen.<p>";
       }
       echo"<br>";
       echo _meet() ; 
@@ -266,7 +270,24 @@
     <!-- echo"<p>The answer to the Universe, Life and Everything is: $x</p>" ; 
     OK for styling variables but for functions?
     Include style ref in the function-->
-
+    <?php
+    echo"<h4>Function return values in text and in numerals</h4";
+    function _gruss() {
+        return "<p>Hallo</p>";
+    }
+    echo"<br>";
+    print _gruss(). "<p>June</p>";
+    print _gruss(). "<p>Bob</p>";
+    echo"<br>";
+  
+    function _gross(int $m, int $n) {
+        $o = $m + $n;
+        return "<p>$o</p>";
+    }
+    print "<p>99 plus 1001. Some sum eh!</p>". _gross(99, 1001);
+    echo "<p>199 plus 2001. Some sum eh!</p>". _gross(199, 2001);
+    echo"<br>";
+    ?>
 
 
 
