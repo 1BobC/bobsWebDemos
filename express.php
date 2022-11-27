@@ -17,6 +17,13 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <?php
+        ini_set('display_errors', 1); 
+        //phpinfo();
+        ?>  
+
+     
+
         <h3>First expression example:</h3>
 <?php
     echo'First expression example.' ;
@@ -183,7 +190,9 @@
     // $va = array();
     // $va[] = "One Two";
     // $va[] = "Three Four";
-    // print_r ($va);
+    // print_r ($va);<?php
+    
+    ?>
     $va = array("One Two", "Three Four");
     //echo"array va is also: ", $va;<h4>Write your own functions.</h4>
     print_r ($va);
@@ -287,10 +296,8 @@
     print "<p>99 plus 1001. Some sum eh!</p>". _gross(99, 1001);
     echo "<p>199 plus 2001. Some sum eh!</p>". _gross(199, 2001);
     echo"<br>";
+    
     ?>
-
-
-
     <?php
     echo"<p>Page End</p>";
     ?>
