@@ -196,7 +196,7 @@
     $va = array("One Two", "Three Four");
     //echo"array va is also: ", $va;<h4>Write your own functions.</h4>
     print_r ($va);
-    ?>
+    
     <?php
     echo"<br>";
     echo "Looping through an array with 'foreach'", "<br>";
@@ -296,12 +296,38 @@
     print "<p>99 plus 1001. Some sum eh!</p>". _gross(99, 1001);
     echo "<p>199 plus 2001. Some sum eh!</p>". _gross(199, 2001);
     echo"<br>";
-    
     ?>
+    <h3>Have a go at the 'Guessing game' form GET check url</h3>
+<form>
+    <p><label for = "guess">Input Guess</label>
+    <input type= "text" name="guess" id="guess"/></p>
+    <input type = "submit"/>
+</form method="get">
+    <pre>
+        $_GET:
+    <?php
+        print_r($_GET);
+    ?>   
+    </pre>
+    <h3>Have a go at the 'Guessing game' form POST and check url</h3>
+    <form method="post">
+    <p><label for = "guess1">Input Guess</label>
+    <input type= "text" name="guess1" id="guess1"/></p>
+    <input type = "submit"/>
+</form>
+    <pre>
+        $_POST:
+    <?php
+        print_r($_POST);
+    ?> 
+    </pre>   
+    
+
     <?php
     echo"<p>Page End</p>";
     ?>
-    
+    <?php
+    ?>
         <script src="" async defer></script>
     </body>
 </html>
