@@ -302,7 +302,7 @@
     <p><label for = "guess">Input Guess</label>
     <input type= "text" name="guess" id="guess"/></p>
     <input type = "submit"/>
-</form method="get">
+</form method="get"> <!--can be here--->
     <pre>
         $_GET:
     <?php
@@ -310,12 +310,12 @@
     ?>   
     </pre>
     <h3>Have a go at the 'Guessing game' form POST and check url</h3>
-    <form method="post">
+    <form method="post"> <!--or here--->
     <p><label for = "guess1">Input Guess</label>
     <input type= "text" name="guess1" id="guess1"/></p>
     <input type = "submit"/>
 </form>
-    <pre>
+    <pre> 
         $_POST:
     <?php
         print_r($_POST);
