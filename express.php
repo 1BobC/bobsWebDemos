@@ -320,7 +320,26 @@
     <?php
         print_r($_POST);
     ?> 
-    </pre>   
+    </pre>  
+    <!-- See note below -->
+    <h4>Form input types 4:36:30 to 4:49:40</h4>
+    <form method="post" action= "more.php">
+        <p><label for="input01">Account:</label>
+        <input type= "text" name= "account" id="inp01" size= "40" ></p>
+        <p><label for="input02">Password:</label>
+        <input type= "password" name= "pw" id="inp02" size= "40" ></p>
+        <p><label for="input03">Nick Name:</label>
+        <input type= "text" name= "nick" id="inp03" size= "40" ></p>   
+        <input type = "submit"/>
+    </form>   
+    <pre> 
+        $_POST:
+    <?php
+        print_r($_POST);
+    ?> 
+    </pre>    
+   <!-- This example only works in a file called more php Doh! -->
+
     
 
     <?php
