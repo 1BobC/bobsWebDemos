@@ -28,6 +28,7 @@
         <!-- try this with and without a value -->
             ncode56 - JavaScript<br></p> 
             <br>
+        <!-- Drop down/ option box for drink and snack -->
         <p><label for="inp06">Which drink:
         <select name="Fizz" id="inp06">
             <option value="0">--Please select--</option>
@@ -51,11 +52,30 @@
         </select>
         </p>
         <br/>
+        <!-- Text area -->
         <p><label for="inp08">Tell us all about yourself:<br/>
             <textarea rows= "10" cols= "40" id= "inp08" name="about">
                 Well...
         </textarea>
-        </p>   
+        </p>  
+         <!--Multiple select - Mmm... problematic for users!  -->
+         <!-- Use control + click when selecting -->
+        <p><label for="input09">Who is awsome?<br/>
+        <select multiple="multiple" name= "code[]" id="input09">
+            <option value="Finn">Finn</option>
+            <option value="Freya">Freya</option>
+            <option value="Hucky">Hucky</option>
+            <option value="Orla">Orla</option>
+        </select>
+        <br/>
+        <!-- Multiple buttons based on the Submit button Look out for use later in this tutorial -->
+        <!-- <p>
+            <input type="submit" name="dopost" value="Submit"/>
+            <input type="button" 
+            onclick="location.href='http://www.wa4a.com/'; return false;"
+            value= "Escape">
+        </p> -->
+        <!-- Input box -->
         <input type = "submit"/>
     </form>   
     <pre> 
