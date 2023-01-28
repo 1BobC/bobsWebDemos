@@ -331,7 +331,11 @@
         <p><label for="input03">Nick Name:</label>
         <input type= "text" name= "nick" id="inp03" size= "40" ></p>   
         <input type = "submit"/>
-    </form>   
+    </form> 
+    <h4>See also file more php</h4>
+    <h4>HTML5 input types - not really exceptional nowadays</h4> 
+    
+
     <pre> 
         $_POST:
     <?php
