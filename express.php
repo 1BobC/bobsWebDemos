@@ -257,7 +257,7 @@
         echo"<br>";
         echo str_repeat("Hi di hi. ", 2);
         echo"<br>";
-        echo strtolower("HERE WE, HERE WE, HERE WE... ARE!");
+        echo strtolower("HERE WE, HERE WE, HERE WE... GO!");
         echo"<br>";
         echo strlen("The quick brown fox... etc.");
         echo"<br>";
@@ -332,25 +332,47 @@
         <input type= "text" name= "nick" id="inp03" size= "40" ></p>   
         <input type = "submit"/>
     </form> 
-    <h4>See also file more php</h4>
-    <h4>HTML5 input types - not really exceptional nowadays</h4> 
-    
+    <h4>Form inputs</h4>
+    <pre> 
+        $_POST:
+    <?php
+        print_r($_POST);
+    ?> 
+    </pre>   
+    <!-- This example only works in a file called more php Doh! --> 
+    <h4>See also file more php for Many Fields PHP</h4>
+    <br>
 
+    <h4>HTML5 input types - not really exceptional nowadays but here is a composite example<h4><p>Nice expression - in-browser validation</p></h4> 
+    <form method="post">
+    <p>Select your favourite color:</p>
+    <input type= "color" name="favcolor" value= "#0000ff"><br/>
+    <p>Birthday</p>
+    <input type= "data" name="bday" value= "2013-9-20"><br/>
+    <p>Email</p>
+    <input type= "email" name="email"><br/>
+    <p>Quantity between 1 and 5</p>
+    <input type= "number" name="quantity" min= "1" max= "5"><br/>
+    <p>Add your home page</p>
+    <input type= "url" name="homepage"><br/>
+    <p>Transportation</p>
+    <input type= "rickshaw" name="cyclist"><br/>
+    <input type = "submit"/>
+    </form>
     <pre> 
         $_POST:
     <?php
         print_r($_POST);
     ?> 
     </pre>    
-   <!-- This example only works in a file called more php Doh! -->
+   
 
     
 
     <?php
     echo"<p>Page End</p>";
     ?>
-    <?php
-    ?>
+    
         <script src="" async defer></script>
     </body>
 </html>
