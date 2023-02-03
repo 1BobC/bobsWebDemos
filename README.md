@@ -34,3 +34,5 @@ Now for Arrays starting 3:34:11"
 "complete to 04:45:22 including multiple select and multiple buttons"
 "multiple buttons actually goes to 04:47:20 Now onto HTML5 input types but example not yet coded"
 "complete to 04:49:40 Form input types plus all examples Remember print r Post prints from any form" "Continue with Data Security, Integrity, Validation"
+"onto expressA file Continue with Data Security, Integrity, Validation 04:50:10
+NB Data Persistance and Use injection, 04:58:00 to 05:00:00 Data validation Go over again! Before going on to Convention: Model View Controller (MVC)"
