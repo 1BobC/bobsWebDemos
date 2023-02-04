@@ -31,6 +31,35 @@
 <!-- All in place so let's see... -->
 <!-- Yippee! Thanks Dr Chuck! -->
 <!-- BUT if an HTML character is in the guess and you echo it,  THEN TROUBLE! - see change above... -->
+    <h2>Validate incoming guessing game data</h2>
+    <form method= "post">
+    <p><label for = "guess">Input Guess</label>
+    <input type= "text" name="guess" id="guess"/></p>
+    <!-- <p> -->
+    <?php
+    if (! isset($_GET["guess"]) ) {
+        echo("Missing guess parameter");
+    }else if (strlen($_GET["guess"]) <1 ) {
+        echo("Your guess is too short");
+    }else if ( ! isnumeric($_GET["guess"])) {
+        echo("Your guess is not a number");
+    }else if (strlen($_GET["guess"]) <42 ) {
+        echo("Your guess is too low"); 
+    }else if (strlen($_GET["guess"]) >42 ) {
+        echo("Your guess is too high");
+    }else {
+        echo("Congratulations your guess is correct!");
+    }
+    ?>
+    <!-- </p> -->
+     <input type = "submit"/>
+    </form>
+    <pre> 
+        $_POST:
+    <?php
+        print_r($_POST);
+    ?> 
+    <p>"Whoa! 04:59:11 Data verification for a guessing game not finished (does'nt work!)"</p>
 
 
     <?php
