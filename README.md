@@ -35,4 +35,5 @@ Now for Arrays starting 3:34:11"
 "multiple buttons actually goes to 04:47:20 Now onto HTML5 input types but example not yet coded"
 "complete to 04:49:40 Form input types plus all examples Remember print r Post prints from any form" "Continue with Data Security, Integrity, Validation"
 "onto express A file  Data Security, Integrity, Validation 04:50:10 NB Data Pers istance and injection, 04:58:00 to 05:00:00 Data valid ation Go over again! Before going on to Convention: Model View Controller (M VC)"
-C
+"Whoa! 04:59:11 Data verification for a guessing game not finished (does'nt work!)"
+"Whoa again! you have been trying to make isolated examples work, Dr C will put it together, so watch and wait and learn!!!"

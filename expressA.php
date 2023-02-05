@@ -11,32 +11,18 @@
     </head>
     <body>
     <!-- Continue with Data Security, Integrity, Validation 04:50:10 -->
-    <!-- This is the code that makes the data you entered persist BUT am not sure how to run it with 'guess' ?? -->
-    <?php
-    $oldguess= isset($_POST['guess']) ? $_POST['guess'] : '';
-    ?>
-    <p>Guessing game...</p>
-    <form method= "post">
-        <p><label for= "guess">Input Guess</label>
-        <!-- <input type= "text" name= "guess" id= "guess"
-        size= "40" value= "<?= $oldguess ?>"/></p> -->
-        <input type= "text" name= "guess" id= "guess"
-        size= "40" value= "<?= htmlentities($oldguess) ?>"/></p>
-        <input type= "submit" />
-    </form>
-            <?= $oldguess ?>
-            <!-- This is a shorthand version of the echo code below -->
-</br>  
-            <?php echo ($oldguess); ?>
-<!-- All in place so let's see... -->
-<!-- Yippee! Thanks Dr Chuck! -->
-<!-- BUT if an HTML character is in the guess and you echo it,  THEN TROUBLE! - see change above... -->
+    <!-- Do again from video -->
+
     <h2>Validate incoming guessing game data</h2>
-    <form method= "post">
+    <form method= "get">
     <p><label for = "guess">Input Guess</label>
-    <input type= "text" name="guess" id="guess"/></p>
-    <!-- <p> -->
-    <?php
+    <input type= "text" name= "guess" id= "guess"
+        size= "40" /></p>
+     <input type = "submit"/>
+    </form>
+    
+    
+    <p><?php
     if (! isset($_GET["guess"]) ) {
         echo("Missing guess parameter");
     }else if (strlen($_GET["guess"]) <1 ) {
@@ -50,17 +36,19 @@
     }else {
         echo("Congratulations your guess is correct!");
     }
-    ?>
-    <!-- </p> -->
-     <input type = "submit"/>
-    </form>
-    <pre> 
-        $_POST:
-    <?php
-        print_r($_POST);
-    ?> 
-    <p>"Whoa! 04:59:11 Data verification for a guessing game not finished (does'nt work!)"</p>
+    
+    ?></p>
 
+    
+    <pre> 
+        $_GET:
+    <?php
+        print_r($_GET);
+    ?> 
+    </pre>
+    "Whoa! 04:59:11 Data verification for a guessing game not finished (does'nt work!)"
+    <h4>Whoa again! you have been trying to make isolated examples work, Dr C will put it together, 
+        so watch and wait and learn!!!</h4>
 
     <?php
     echo"<p>Page End</p>";
