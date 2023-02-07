@@ -24,7 +24,7 @@
             //Other data validation code can be put in - around here? 
             //context comes in here
             $oldguess= $_POST['guess'] + 0;            
-            if ($oldguess= 42) {
+            if ($oldguess== 42) {
                 $message= "Great job!";    
             }else if ($oldguess < 42) {
                 $message= "No, too low";
