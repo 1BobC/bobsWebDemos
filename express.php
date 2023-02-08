@@ -20,8 +20,27 @@
         <?php
         ini_set('display_errors', 1); 
         //phpinfo();
-        ?>  
-
+        ?> 
+ 
+ <h1>First attempt with PHP</h1>
+<p><?php
+            echo 
+            "Hello to you!";
+            echo "<br>" ;
+?>      
+<?php
+            $data = array("warm ", "and a ", "welcome!");             
+            echo "$data[1]"; echo "<br>" ;
+            echo "$data[0]"; echo "<br>" ; 
+            echo "$data[2]"; echo "<br>" ;           
+            echo "Thank you TWD.  ";
+            echo "  Please see note in index file"
+?></p>
+<h1>PHP Syntax Example</h1>
+<?php
+ echo "<p>PHP Powers almost 80% of the Modern Web.</p>";
+?>
+<p>None of the above runs in html datei, weil das ist nicht ein php Datei, So placed in first express file</p> 
      
 
         <h3>First expression example:</h3>
