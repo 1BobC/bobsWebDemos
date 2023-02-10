@@ -44,5 +44,5 @@ Now for Arrays starting 3:34:11"
 "To 05:24:33 and emphasis on php form entry security - wrap old guess in html entities, From 05:25:00 more form types (as earlier examples of form code"
 "To 05:32:30 through form code as file more php"
 "05:32:30 working through guessing game on MVC php file"
-"to 05:39:15 MVC Guessing game talk-through Look at it again!
-And now for Relational Databases and SQL, New files required"
+"to 05:39:15  Look at it again, Then from 05:39:15 Rel D / bases and S, Q, L"
+"to 05:46:00 intro to subject"
