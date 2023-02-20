@@ -1,0 +1,1 @@
+INSERT INTO Leute1.benutzer (id, name, email, main_hobby) VALUES (230001, 'Bob', 'bob@home.com', 'LLearning');
