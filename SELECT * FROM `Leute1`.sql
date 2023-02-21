@@ -1,0 +1,1 @@
+SELECT * FROM `Leute1`.`benutzer` LIMIT 1000;
