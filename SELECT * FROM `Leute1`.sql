@@ -1,2 +1,0 @@
-SELECT * FROM `Leute1`.`benutzer` LIMIT 1000;
-SELECT USER(), CURRENT_DATE;
