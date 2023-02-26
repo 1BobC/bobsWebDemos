@@ -1,0 +1,2 @@
+ALTER TABLE benutzer
+DROP COLUMN id;
