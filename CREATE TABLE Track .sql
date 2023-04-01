@@ -1,19 +1,19 @@
 CREATE TABLE Track (
-    track_id INTEGER NOT NULL AUTO_INCREMENT KEY,
-    name VARCHAR (255),
-    artist_id INTEGER,
-    genre_id INTEGER,
-    ejc_id INTEGER,
+     track_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+     name VARCHAR (255),
+     artist_id INTEGER,
+     genre_id INTEGER,
+     ejc_id INTEGER,
 
-    INDEX USING BTREE (name),
+     INDEX USING BTREE (name),
 
-    CONSTRAINT FOREIGN KEY (artist_id)
-    REFERENCES  Artist(artist_id)
-    ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT FOREIGN KEY (ejc_id)
-    REFERENCES  Ejc(ejc_id)
-    ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT FOREIGN KEY (genre_id)
-    REFERENCES  Genre(genre_id)
-    ON DELETE CASCADE ON UPDATE CASCADE
-    ) ENGINE = InnoDB;
+     CONSTRAINT FOREIGN KEY (artist_id)
+     REFERENCES  Artist(artist_id)
+     ON DELETE CASCADE ON UPDATE CASCADE,
+     CONSTRAINT FOREIGN KEY (ejc_id)
+     REFERENCES  Ejc(ejc_id)
+     ON DELETE CASCADE ON UPDATE CASCADE,
+     CONSTRAINT FOREIGN KEY (genre_id)
+     REFERENCES  Genre(genre_id)
+     ON DELETE CASCADE ON UPDATE CASCADE
+     ) ENGINE = InnoDB;
