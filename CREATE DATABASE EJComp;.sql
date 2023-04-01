@@ -1,0 +1,2 @@
+CREATE DATABASE EJComp;
+USE EJComp;
