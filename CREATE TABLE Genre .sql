@@ -1,4 +1,0 @@
-CREATE TABLE Genre (
-    genre_id INTEGER NOT NULL AUTO_INCREMENT  KEY,
-    name VARCHAR(255)
-    ) ENGINE = InnoDB;
